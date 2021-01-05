@@ -4,7 +4,6 @@ function openModal(modalSelector, modalTimerId) {
     modal.classList.add('show');
     modal.classList.remove('hide');
     document.body.style.overflow = 'hidden';//убираем скролл при открытом модальном окне
-    console.log(modalTimerId);
     if (modalTimerId) {
         clearInterval(modalTimerId);
     }
